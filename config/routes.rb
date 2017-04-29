@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :websites
 	root 'dashboard#index'
   get 'dashboard/index'
 
